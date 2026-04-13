@@ -1,0 +1,18 @@
+# node modules (sab folders ke liye)
+node_modules/
+
+# env files (sab jagah ke liye)
+.env
+.env.*
+*.env
+
+# logs
+logs
+*.log
+
+# build folders
+dist/
+build/
+
+# OS files
+.DS_Store

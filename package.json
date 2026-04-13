@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "firebase": "^12.9.0",
+    "nodemailer": "^8.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "admin": "cd admin && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"npm run admin\""
+  }
+}
